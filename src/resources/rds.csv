@@ -1,0 +1,2 @@
+"id_rds","status","regiao_az","tamanho","vpc","multi_az","tipo_armazenamento","armazenamento","emissor"
+prd-reg-crefisa,Disponível,us-east-1a,db.t4g.small,vpc-08a4afddda11eaea6,Não,SSd de uso geral (gp3),"20 GiB",crefisa

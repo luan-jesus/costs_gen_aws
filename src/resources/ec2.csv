@@ -1,0 +1,2 @@
+"nome","instancia","estado_instancia","tipo_instancia","id_publico","ip_privado","monitoramento","grupo_seguranca","nome_chave","id_volume","nome_dispositivo","tipo_dispositivo","data_lancamento","plataforma","emissor"
+CREFISA - BUSINESS - 1A,i-08197a0cd4e510288,Executando,t3a.xlarge,"54.147.147.211","10.12.2.7",disabled,"SSH new,Service Web Gateway,HTTP / HTTPS,Monitoramento",regulatorio,vol-0546e5be54de8eeaa,/dev/sda1,ebs,"2022/12/21 19:28 GMT-3",Linux/UNIX,crefisa

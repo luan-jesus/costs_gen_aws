@@ -17,7 +17,7 @@ const DDL_EC2 = `
     data_lancamento varchar NULL,
     plataforma varchar NULL,
     emissor varchar NULL
-  )
+  );
 `
 
 const DDL_RDS = `
@@ -31,7 +31,7 @@ const DDL_RDS = `
     tipo_armazenamento varchar NULL,
     armazenamento varchar NULL,
     emissor varchar NULL
-  )
+  );
 `
 
 const DDL_EBS = `
@@ -42,7 +42,7 @@ const DDL_EBS = `
     tamanho varchar NULL,
     estado varchar NULL,
     recursos_anexados varchar NULL
-  )
+  );
 `
 
 const DDL_CUSTOS_POR_EMISSOR = `
@@ -58,7 +58,7 @@ const DDL_CUSTOS_POR_EMISSOR = `
     impostos numeric(19, 2) NULL,
     total numeric(19, 2) NULL,
     CONSTRAINT custos_por_emissor_pkey PRIMARY KEY (emissor)
-  )
+  );
 `
 
 async function migrate() {

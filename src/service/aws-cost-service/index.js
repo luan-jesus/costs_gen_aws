@@ -162,7 +162,7 @@ async function distributeRDSRemainingValueProportionally(rdsTotal) {
     select sum(rds) rds from custos_por_emissor cpe 
   `)
 
-  const remainingValueToDistribute = rdsTotal - Number.parseFloat(dbResponse.rows[0].rds)
+  const remainingValueToDistribute = rdsTotal - Number.parseFloat(dbResponse.rows[0].rds || 0)
 
   const dbUpdateResponse = await databaseService.runQuery(`
     update custos_por_emissor set rds = rds + (${remainingValueToDistribute} * proporcao)
